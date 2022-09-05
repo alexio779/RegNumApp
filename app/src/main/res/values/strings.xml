@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RegNum</string>
+    <string name="OK">OK</string>
+    <string name="EntRegNum">Введите код региона России</string>
+    <string name="obr">Например: 777</string>
+    <string name="Err1">Напишите код региона</string>
+    <string name="Err2">Чекпоинт 1</string>
+    <string name="Err3">Чекпоинт 2</string>
+    <string name="Err4"><font fgcolor='#FF0000'>Региона с таким кодом не существует</font></string>
+    <string name="RUS">RUS</string>
+</resources>
