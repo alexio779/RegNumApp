@@ -132,6 +132,7 @@ public class MainActivity extends AppCompatActivity {
                                             break;
                                         case "buryatia":
                                             img.setImageResource(R.drawable.buryatia);
+                                            break;
                                         case "komi":
                                             img.setImageResource(R.drawable.komi);
                                             break;
