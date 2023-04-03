@@ -2,23 +2,18 @@ package com.example.regnum;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
-import androidx.core.content.res.ResourcesCompat;
 
 import android.annotation.SuppressLint;
 import android.content.pm.ActivityInfo;
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
@@ -99,6 +94,15 @@ public class MainActivity extends AppCompatActivity {
                                     switch(dra){
                                         case "mos":
                                             img.setImageResource(R.drawable.moscow);
+                                            break;
+                                        case "ukrain-don":
+                                            img.setImageResource(R.drawable.don);
+                                            break;
+                                        case "ukrain-zaporozh":
+                                            img.setImageResource(R.drawable.zap);
+                                            break;
+                                        case "ukrain-lnr":
+                                            img.setImageResource(R.drawable.lug);
                                             break;
                                         case "chuvash":
                                             img.setImageResource(R.drawable.chuvash);
@@ -328,8 +332,8 @@ public class MainActivity extends AppCompatActivity {
                                         case "udmurt":
                                             img.setImageResource(R.drawable.udmurt);
                                             break;
-                                        case "ukrain":
-                                            img.setImageResource(R.drawable.ukrain);
+                                        case "ukrain-herson":
+                                            img.setImageResource(R.drawable.herson);
                                             break;
                                         case "ulya":
                                             img.setImageResource(R.drawable.ulya);
